@@ -42,9 +42,7 @@ arrowUp.addEventListener("click", () => {
     counrer.innerHTML.length === 1
       ? (counrer.innerHTML = "0" + counrer.innerHTML)
       : (counrer.innerHTML = counrer.innerHTML);
-    setTimeout(() => {
-      item.style.opacity = 0;
-    }, 7000);
+   
   });
 });
 arrowDown.addEventListener("click", () => {
@@ -60,8 +58,5 @@ arrowDown.addEventListener("click", () => {
     counrer.innerHTML.length === 1
       ? (counrer.innerHTML = "0" + counrer.innerHTML)
       : (counrer.innerHTML = counrer.innerHTML);
-    setTimeout(() => {
-      item.style.opacity = 0;
-    }, 7000);
   });
 });
