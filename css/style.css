@@ -15,6 +15,7 @@ body {
   display: flex;
   max-width: 1280px;
   margin: 0 auto;
+  overflow-x: hidden;
   padding: 0 15px;
   justify-content: space-between;
   align-items: center;
@@ -53,6 +54,7 @@ body {
   display: flex;
   max-width: 1280px;
   margin: 0 auto;
+  overflow-x: hidden;
 }
 .main-image {
 }
@@ -116,4 +118,65 @@ body {
   text-align: center;
   width: 297px;
   height: 51px;
+}
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+footer {
+  border-top: 4px solid #3596f5;
+  margin-top: 100px;
+  box-sizing: border-box;
+  background: #d7d7d7;
+}
+.footer {
+  display: flex;
+  min-height: 171px;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+}
+.footer-contacts {
+  text-align: left;
+}
+.footer-contacts__span {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #635854;
+
+  margin-bottom: 5px;
+  display: block;
+}
+.footer-contacts__link {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #635854;
+}
+.sicial-icons {
+  margin-right: 20%;
+}
+.sicial-icons__link {
+  margin: 0 15px;
+}
+.sicial-icons__img {
+}
+.politicy {
+}
+.politicy-item {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-decoration-line: underline;
+  margin: 0 10px;
+  color: #635854;
 }
