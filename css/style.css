@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 body {
   font-family: "Roboto", sans-serif;
@@ -7,7 +7,8 @@ body {
   background-color: #635854;
   color: #fff;
   padding: 12px 0;
-  border-bottom: 4px solid #3596F5;
+  margin-bottom: 54px;
+  border-bottom: 4px solid #3596f5;
 }
 .navbar {
   min-height: 56px;
@@ -24,9 +25,9 @@ body {
   display: flex;
 }
 .navbar-item {
-    font-weight: normal;
-font-size: 16px;
-line-height: 19px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
   text-align: center;
 }
 .navbar-item + .navbar-item {
@@ -35,16 +36,84 @@ line-height: 19px;
 .navbar-link {
 }
 .navbar-contacts {
-    text-align: right;
+  text-align: right;
 }
 .navbar-text {
-    display: block;
-    font-weight: normal;
-font-size: 14px;
-line-height: 16px;
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
 }
 .navbar-phone_link {
-    font-weight: 700;
-font-size: 17px;
-line-height: 20px;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+}
+.main {
+  display: flex;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.main-image {
+}
+.main-img {
+}
+.main-img path {
+  transition: all 0.5s;
+  opacity: 0;
+}
+.main-img path:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.main-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-grow: 1;
+  align-items: center;
+}
+.main-title {
+  font-family: "Bebas Neue Cyrillic";
+  font-weight: normal;
+  font-size: 37px;
+  line-height: 44px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #635854;
+}
+.counrer-group {
+  display: flex;
+  flex-direction: column;
+  height: 185px;
+  align-items: center;
+  justify-content: space-between;
+}
+.counrer-btn {
+  width: 32.11px;
+  height: 19.84px;
+}
+.counrer-btn__up {
+}
+.counrer {
+  color: #635854;
+  font-size: 120px;
+}
+.counrer-btn__down {
+  transform: rotateX(180deg);
+}
+.main-btn__primary {
+  border: none;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #ffffff;
+
+  background: #3596f5;
+  border-radius: 6px;
+  padding: 16px 36px;
+  text-align: center;
+  width: 297px;
+  height: 51px;
 }
